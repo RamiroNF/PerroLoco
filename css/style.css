@@ -1,0 +1,157 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #696E79;
+    color: aquamarine;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    background-color: #696E79;
+}
+
+.brandImage {
+    width: 40px;
+    height: 50px;
+}
+
+.leftSectionHeader {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.rigthSection {
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.rigthSection a {
+    color: #01CE8D;
+    text-decoration: none;
+}
+
+.budgetButton {
+    width: 120px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #01CE8D;
+    display: flex;
+}
+
+.contacto {
+    width: 300px;
+    height: 900px;
+}
+
+.titulo1 {
+    background-color: aquamarine;
+}
+
+.titulo2{
+    background-color: black;
+    color: aquamarine;
+}
+
+.titulo3{
+    background-color: aquamarine;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.NOSOTROS{
+    color: antiquewhite;
+    position: absolute;
+    bottom: 0%;
+}
+
+h2, h3, h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+footer a {
+        text-decoration: none;
+        color: black;
+}
+
+footer h3 {
+        color: aquamarine;
+}
+
+.usItems {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin: 40px;
+    
+
+}
+
+.Us {
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.works img {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.halfImpression {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.halfImpression p {
+    height: 30px;
+    width: 500px;
+    padding: 30px;
+}
+
+.medio p {
+    height: 30px;
+    width: 500px;
+    padding: 30px;
+}
