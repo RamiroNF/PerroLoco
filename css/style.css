@@ -3,16 +3,19 @@ header {
     flex-direction: row;
     justify-content: space-between;
     background-color: #696E79;
-    color: aquamarine;
+    color: #01CE8D;
     margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+   
 body {
     background-color: white;
+
 }
 
 main {
     background-color: #696E79;
+    margin-bottom: 30px;
 }
 
 .brandImage {
@@ -24,10 +27,14 @@ main {
     width: 50%;
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+
 }
 
 .rigthSection {
-    width: 50%;
+    width: 100%;
     font-size: 20px;
     display: flex;
     flex-direction: row;
@@ -46,12 +53,17 @@ main {
     width: 120px;
     height: 20px;
     border-radius: 10px;
+    background-color: #01CE8D;
+    margin: 0 auto
+
+
 }
 
 
 footer {
     background-color: #01CE8D;
     display: flex;
+   margin-block-start: 20px;
 }
 
 .contacto {
@@ -112,7 +124,7 @@ footer h3 {
 }
 
 .Us {
-    color: grey;
+    color: black;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -150,8 +162,16 @@ p {
     padding: 30px;
 }
 
-.medio p {
-    height: 30px;
-    width: 500px;
-    padding: 30px;
+.medio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rigthSection :hover{
+    color: lightyellow;
+    text-decoration: underline;
+}
+
+h2 {
 }
