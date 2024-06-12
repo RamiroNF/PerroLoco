@@ -219,3 +219,21 @@ h1 {
 
 .ussection p {
 }
+
+@media (max-width:600px){
+    
+    main{
+        background-color: red;
+        display: grid;
+        grid-template-columns: repeat(
+            auto-fit,
+            minmax(
+                150px,
+                1fr
+            )
+        )
+        gap: 16px;
+
+       
+    }
+}
